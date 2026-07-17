@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,4 +55,62 @@
 
     <script src="script.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayo Peters | Academic Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">DayoPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html" class="active">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Miva Academic Task Management System</h2>
+            <p>Organize your assignment goals and track completion milestones dynamically below.</p>
+            
+            <div class="planner-inputs">
+                <input type="text" id="taskInput" placeholder="Enter upcoming task title...">
+                <button onclick="addTask()" class="btn">Add Task</button>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Active Assignment Matrix</h2>
+            <table class="planner-table">
+                <thead>
+                    <tr>
+                        <th>Task Name</th>
+                        <th>Current Status</th>
+                        <th>Actions Management</th>
+                    </tr>
+                </thead>
+                <tbody id="taskTableBody">
+                    <!-- Loaded dynamically via script.js -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MIVA Open University. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+>>>>>>> 999e3ee0b216c83c8e75f4b80974d8d2709ac99a
 </html>
